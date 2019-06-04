@@ -3,7 +3,7 @@ font-family: 'Roboto', sans-serif; */
 
 .hero-image-top {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(117, 149, 192), rgba(117, 149, 192)), url("photographer.jpg");
+  background-image: linear-gradient(rgba(93, 141, 203, 0.8), rgba(93, 141, 203, 0.8)), url("./images/superman.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -13,6 +13,7 @@ font-family: 'Roboto', sans-serif; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 0%;
 }
 #text{
   padding: 5%;
@@ -83,6 +84,7 @@ font-family: 'Roboto', sans-serif; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin:0%;
 }
 #superheroes{
   padding: 10%;
@@ -139,6 +141,7 @@ font-family: 'Roboto', sans-serif; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 0%;
   }
   #address{
     background-color:rgba(64, 62, 62, 0.8);
@@ -171,6 +174,56 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 10px;
+  }
+  #movie{
+    margin-left:20%;
+    padding: 5%;
+  
+  }
+  #screens{
+    margin-top: 10%;
+    max-height: 80%;
+    max-width: 100%;
+  }
+  .hero-image-middle-bottom{
+    background-image: linear-gradient( rgb(233, 233, 233), rgb(233, 233, 233));
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -5%;
+  }
+  #name{
+    max-width: 100%;
+    margin:3%
+  }
+  #email{
+    max-width: 100%;
+    margin: 3%;
+  }
+  #power{
+    max-width: 100%;
+    margin:3%;
+  }
+  #subject{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 3%;
+  }
+  .button2{
+  font-family: 'Roboto', sans-serif;
+  color:rgb(135, 135, 135);
+  font-size: 15px;
+  border: 1.2px solid rgb(135, 135, 135);
+  height: 10%;
+  width: 80%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  align-content: center;
+  margin-bottom: 20%;
   }
 
 
