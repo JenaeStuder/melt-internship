@@ -1,7 +1,7 @@
 /* font-family: 'Slabo 27px', serif;
 font-family: 'Roboto', sans-serif; */
 
-.hero-image {
+.hero-image-top {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(117, 149, 192), rgba(117, 149, 192)), url("photographer.jpg");
 
@@ -53,10 +53,38 @@ font-family: 'Roboto', sans-serif; */
   color: rgb(146, 185, 233);
   font-size: 45px;
   align-content: center;
+  /* margin: 0% 20%; */
 }
 .text4{
   font-family: 'Roboto', sans-serif;
   color: rgb(135, 135, 135);
+  align-content: center;
+}
+.text5{
+  font-family: 'Slabo 27px', serif;
+  color:white;
+  font-size: 45px;
+  align-content: center;
+
+}
+#icons{
+  align-content: center;
+}
+.hero-image-middle {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(135, 135, 135, .8), rgba(135, 135, 135, .8)), url("./images/office.jpg");
+
+  /* Set a specific height */
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#superheroes{
+  padding: 10%;
   align-content: center;
 }
 
