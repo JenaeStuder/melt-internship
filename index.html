@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,19 @@
     <link rel="icon" type="image/x-icon" href="assets/images/meltmedia-logo.png">
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-<!-- Google Fonts CDN -->
+    <!-- Google Fonts CDN -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300|Slabo+27px&display=swap" rel="stylesheet">
 
     <!-- Hamburger button cdn -->
@@ -22,43 +30,103 @@
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-  
+
 
     <title>meltmedia | Digital Agency | Strategy, Design & Development</title>
 </head>
+
 <body>
-        <div class="jumbotron">
-            <div class ="row">
-                <div class = "c">
+    <div class="hero-image">
+        <!-- <div class="hero-text">
+                  <h1>I am John Doe</h1>
+                  <p>And I'm a Photographer</p>
+                  <button>Hire me</button>
+                </div> -->
+
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <img class='logo' src="./assets/images/melt_logo.png" alt="Melt Logo" height="42" width="42"></img>
+            </div> 
+             <div class="col-md-6"> 
                 <div class="topnav" id="myTopnav">
-                        <a href="#home">HOME</a>
-                        <a href="#news">WORK</a>
-                        <a href="#contact">CULTURE</a>
-                        <a href="#about">LABS</a>
-                        <a href="#about">THOUGHTS</a>
-                        <a href="#about">CONTACT</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                          <i class="fa fa-bars"></i>
-                        </a>
-                      </div>
-                      </div>
-                    </div>
-            <div class ="row">
-            <div class="col-sm-6">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                </div>
-                <div class ="col-sm-6">
-                    <img></img>
-                    <p> goblle asjkdfhajsndf ksjndfjsdf kasjndfijrifurejvnkjsdv aksjndinsvjnjkv skjvdnksnsnf</p>
+                    <a href="#home">HOME</a>
+                    <a href="#news">WORK</a>
+                    <a href="#contact">CULTURE</a>
+                    <a href="#about">LABS</a>
+                    <a href="#about">THOUGHTS</a>
+                    <a href="#about">CONTACT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </div>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </div>
-  
-                <!-- javascript -->
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id='text'>
+                    <h1 class="text1">Heroic websites and apps<b> for all viewports.</b></h1>
+                    <p class="text2">We're meltmedia and we're on a mission. Quite simply, it's to make out clients'
+                        lives easier. We create an enviornment where business, technology, and design experts join
+                        forces to deliver innovative and sustainable digital solutions. And we have plenty of geeky fun
+                        along the way.</p>
+                    <a class="button" href="#" role="button">See Our Work</a>
+                </div>
+                <div class="col-md-6">
+                    <img></img>
+                    <p> ipad and iPhone images will go here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class='container'>
+        <!-- <div class='row' id='middle'> -->
+        <div class='row' id='middle'>
+            <div class='col-md-4'></div>
+            <div class='col-md-4'>
+                <h2 class='text3'>What We <b>Do.</b></h2>
+            </div>
+            <div class='col-md-4'></div>
+        </div>
+        <div class="row">
+            <div class='col-sm-2'></div>
+            <div class='col-sm-8'>
+                <p class="text4">We create an experience that transforms business for your brand and your users
+                    across all
+                    devices for the digital economy.</p>
+            </div>
+        </div>
+        <div class='col-sm-2'></div>
+    </div>
+    <div class='row'>
+        <div class="col-sm-2"></div>
+        <div class='col-sm'>
+            <img src='./assets/images/finger.png'alt="Touchscreen finger" height="42" width="42"></img>
+        </div>
+        <div class='col-sm'>
+                <img src='./assets/images/smile.png'alt="Smile" height="42" width="42"></img>
+        </div>
+        <div class='col-sm'>
+                <img src='./assets/images/graph.png'alt="graph" height="42" width="42"></img>
+        </div>
+        <div class='col-sm'>
+                <img src='./assets/images/message.png'alt="Message" height="42" width="42"></img>
+        </div>
+        <div class='col-sm'>
+                <img src='./assets/images/group.png'alt="group" height="42" width="42"></img>
+        </div>
+        <div class="col-sm-2"></div>
+
+
+    </div>
+    <!-- </div> -->
+
+
+
+    <!-- javascript -->
     <script src="assets/javascript/melt.js"></script>
 </body>
+
 </html>
