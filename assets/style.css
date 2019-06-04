@@ -1,12 +1,15 @@
 /* font-family: 'Slabo 27px', serif;
 font-family: 'Roboto', sans-serif; */
-
+.container{
+  margin:0%;
+}
 .hero-image-top {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(93, 141, 203, 0.8), rgba(93, 141, 203, 0.8)), url("./images/superman.jpg");
 
   /* Set a specific height */
   height: 50%;
+  width:100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -14,6 +17,7 @@ font-family: 'Roboto', sans-serif; */
   background-size: cover;
   position: relative;
   margin: 0%;
+  align-content: center;
 }
 #text{
   padding: 5%;
@@ -78,6 +82,7 @@ font-family: 'Roboto', sans-serif; */
 
   /* Set a specific height */
   height: 20%;
+  width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -85,6 +90,7 @@ font-family: 'Roboto', sans-serif; */
   background-size: cover;
   position: relative;
   margin:0%;
+  align-content: center;
 }
 #superheroes{
   padding: 10%;
@@ -131,10 +137,11 @@ font-family: 'Roboto', sans-serif; */
   }
   .hero-image-bottom {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1)), url("./images/map.jpg.png");
+    background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
   
     /* Set a specific height */
     height: 20%;
+    width: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -142,12 +149,20 @@ font-family: 'Roboto', sans-serif; */
     background-size: cover;
     position: relative;
     margin: 0%;
+    align-content: center;
+  }
+  #contact{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 70%;
+   margin-top:15%;
   }
   #address{
     background-color:rgba(64, 62, 62, 0.8);
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 50%;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    /* width: 50%; */
   }
   ul{
     padding:0;
@@ -176,7 +191,7 @@ font-family: 'Roboto', sans-serif; */
     font-size: 10px;
   }
   #movie{
-    margin-left:20%;
+    /* margin-left:20%; */
     padding: 5%;
   
   }
@@ -187,29 +202,37 @@ font-family: 'Roboto', sans-serif; */
   }
   .hero-image-middle-bottom{
     background-image: linear-gradient( rgb(233, 233, 233), rgb(233, 233, 233));
-    height: 20%;
+    height: 15%;
+    width: 105%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin: -5%;
+    z-index:-1;
+    align-content: center;
+  }
+  .col-md-6{
+    padding:0%;
   }
   #name{
-    max-width: 100%;
-    margin:3%
+    min-width: 39vw;
+    /* margin-right:3%; */
+    margin-top: 3%;
   }
   #email{
-    max-width: 100%;
-    margin: 3%;
+    min-width: 39vw;
+    margin-top: 3%;
+    margin-left: 3%;
   }
   #power{
-    max-width: 100%;
-    margin:3%;
+    min-width: 80vw;
+    margin-top:3%;
   }
   #subject{
-    max-width: 100%;
-    max-height: 100%;
-    margin: 3%;
+    min-width: 80vw;
+    min-height: 30vh;
+    margin-top: 3%;
   }
   .button2{
   font-family: 'Roboto', sans-serif;
@@ -229,14 +252,14 @@ font-family: 'Roboto', sans-serif; */
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
