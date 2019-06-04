@@ -69,13 +69,14 @@ font-family: 'Roboto', sans-serif; */
 }
 #icons{
   align-content: center;
+  margin-top: 2%;
 }
 .hero-image-middle {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(135, 135, 135, .8), rgba(135, 135, 135, .8)), url("./images/office.jpg");
 
   /* Set a specific height */
-  height: 40%;
+  height: 20%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -125,6 +126,51 @@ font-family: 'Roboto', sans-serif; */
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
+  }
+  .hero-image-bottom {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1)), url("./images/map.jpg.png");
+  
+    /* Set a specific height */
+    height: 20%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #address{
+    background-color:rgba(64, 62, 62, 0.8);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+  }
+  ul{
+    padding:0;
+    margin:0;
+  }
+  li {
+    list-style-type: none;
+    
+}
+  .text6{
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    font-size: 20px;
+    margin-top:2%;
+  }
+  .text7{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top:2%;
+  }
+  .text8{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 10px;
   }
 
 
