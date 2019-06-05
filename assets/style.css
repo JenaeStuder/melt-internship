@@ -20,7 +20,48 @@ font-family: 'Roboto', sans-serif; */
   align-content: center;
   /* text-align: center */
 }
-a:hover{
+.fa-hand-point-up{
+  font-size: 200%;
+  color: rgb(135, 135, 135);
+  margin:2%;
+}
+.fa-hand-point-up:hover{
+  color: rgb(146, 185, 233) !important;
+}
+.fa-smile-beam{
+  font-size: 200%;
+  color: rgb(135, 135, 135);
+  margin: 2%;
+}
+.fa-smile-beam:hover{
+  color: rgb(146, 185, 233) !important;
+}
+.fa-chart-bar{
+  font-size: 200%;
+  color: rgb(135, 135, 135);
+  margin: 2%;
+  /* padding:%; */
+}
+.fa-chart-bar:hover{
+  color: rgb(146, 185, 233) !important;
+}
+.fa-comment{
+  font-size: 200%;
+  color: rgb(135, 135, 135);
+  margin: 2%;
+}
+.fa-comment:hover{
+  color: rgb(146, 185, 233) !important;
+}
+.fa-users{
+  font-size: 200%;
+  color: rgb(135, 135, 135);
+  margin: 2%;
+}
+.fa-users:hover{
+  color: rgb(146, 185, 233) !important;
+}
+.button:hover{
   background-color:rgb(146, 185, 233);
 }
 #text{
@@ -82,7 +123,7 @@ a:hover{
 }
 #icons{
   align-content: center;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 .hero-image-middle {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
