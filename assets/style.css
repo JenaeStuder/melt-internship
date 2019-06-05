@@ -197,20 +197,6 @@ font-family: 'Roboto', sans-serif; */
     /* text-align: center; */
     align-content: center;
   }
-  #movie{
-    /* position: relative; */
-    /* width: 100%; */
-    /* height: 0; */
-    /* padding-bottom: 56.25%; */
-    /* margin: 5%;
-    padding: 5%;
-    align-content: center; */
-    /* width: 30em;
-    height: 15em; */
-    /* width:560px;
-    height:315px; */
-   
-  }
   .movie{
     position: absolute;
     top: 0;
@@ -218,11 +204,7 @@ font-family: 'Roboto', sans-serif; */
     width: 75%;
     height: 75%;
     margin-top:8%;
-    /* margin-bottom:5%; */
     margin-left:15.5%;
-   
-    
-    /* padding: 20%; */
   }
 
   /* Waze Map Section */
