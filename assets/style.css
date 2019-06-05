@@ -1,202 +1,218 @@
-/* font-family: 'Slabo 27px', serif;
+/* Fonts
+font-family: 'Slabo 27px', serif;
 font-family: 'Roboto', sans-serif; */
 /* .container{
   margin:0%;
 } */
-.hero-image-top {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(93, 141, 203, 0.8), rgba(93, 141, 203, 0.8)), url("./images/superman.jpg");
 
-  /* Set a specific height */
-  height: 50%;
-  width:100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 0%;
-  align-content: center;
-  /* text-align: center */
-}
-.fa-hand-point-up{
-  font-size: 200%;
-  color: rgb(135, 135, 135);
-  margin:2%;
-}
-.fa-hand-point-up:hover{
-  color: rgb(146, 185, 233) !important;
-}
-.fa-smile-beam{
-  font-size: 200%;
-  color: rgb(135, 135, 135);
-  margin: 2%;
-}
-.fa-smile-beam:hover{
-  color: rgb(146, 185, 233) !important;
-}
-.fa-chart-bar{
-  font-size: 200%;
-  color: rgb(135, 135, 135);
-  margin: 2%;
-  /* padding:%; */
-}
-.fa-chart-bar:hover{
-  color: rgb(146, 185, 233) !important;
-}
-.fa-comment{
-  font-size: 200%;
-  color: rgb(135, 135, 135);
-  margin: 2%;
-}
-.fa-comment:hover{
-  color: rgb(146, 185, 233) !important;
-}
-.fa-users{
-  font-size: 200%;
-  color: rgb(135, 135, 135);
-  margin: 2%;
-}
-.fa-users:hover{
-  color: rgb(146, 185, 233) !important;
-}
-.button:hover{
-  background-color:rgb(146, 185, 233);
-}
-#text{
-  padding: 5%;
-}
-.text1{
-  font-family: 'Slabo 27px', serif;
-  color: white;
-  /* text-align: center */
-}
-.text2{
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 20px;
-  /* text-align: center */
-}
-.logo{
-  margin-top: 5%;
-  margin-left: 10%;
-}
-.button{
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 15px;
-  border: 1.2px solid white;
-  height: 10%;
-  width: 80%;
-  padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 2%;
-  align-content: center;
-  margin-bottom: 20%;
-  /* text-align: center */
-}
-#middle{
-  margin-top: 5%;
-}
-.text3{
-  font-family: 'Slabo 27px', serif;
-  color: rgb(146, 185, 233);
-  font-size: 45px;
-  align-content: center;
-  /* text-align: center */
-  /* margin: 0% 20%; */
-}
-.text4{
-  font-family: 'Roboto', sans-serif;
-  color: rgb(135, 135, 135);
-  align-content: center;
-  /* text-align: center */
-}
-.text5{
-  font-family: 'Slabo 27px', serif;
-  color:white;
-  font-size: 45px;
-  align-content: center;
-  /* text-align: center */
-}
-#icons{
-  align-content: center;
-  /* margin-top: 2%; */
-}
-.hero-image-middle {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(135, 135, 135, .8), rgba(135, 135, 135, .8)), url("./images/office.jpg");
-
-  /* Set a specific height */
-  height: 20%;
-  width: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin:0%;
-  align-content: center;
-  /* text-align: center */
-}
-#superheroes{
-  padding: 10%;
-  align-content: center;
-  /* text-align: center */
-}
+/* Navbar */
 
 .nav {
    float: left;
    margin-top: 5%;
-   /* margin-left: 45%; */
     overflow: hidden;
     color: white;
     font-family: 'Slabo 27px', serif;
     font-size: 40px;
-     margin-left:40%;
+    margin-left:40%;
   }
-  
-  /* Style the links inside the navigation bar */
   .nav a {
     float: left;
-    /* display: block; */
     color: white;
-    /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    
-
   }
-  
-  /* Change the color of links on hover */
   .nav a:hover {
     border-bottom: 2px solid black;
-    
   }
-  
-  /* Add an active class to highlight the current page */
-  .active {
-    
+  .active {  
     color: white;
   }
-  
-  /* Hide the link that should open and close the topnav on small screens */
   .nav .icon {
     display: none;
   }
-  .hero-image-bottom {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
+
+  /* SuperMan Image Area */
+
+  .hero-image-top {
+    background-image: linear-gradient(rgba(93, 141, 203, 0.8), rgba(93, 141, 203, 0.8)), url("./images/superman.jpg");
+    height: 40%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+    align-content: center;
+    /* text-align: center */
+  }
+  #text{
+    padding: 5%;
+  }
+  .text1{
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    /* text-align: center */
+  }
+  .text2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    /* text-align: center */
+  }
+  .logo{
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .button{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    border: 1.2px solid white;
+    height: 10%;
+    width: 80%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    align-content: center;
+    margin-bottom: 20%;
+    /* text-align: center */
+  }
+  .button:hover{
+    background-color:rgb(146, 185, 233);
+  }
+  #screens{
+    position: relative;
+    margin-top: 10%;
+    max-height: 300px;
+    width: auto;
+  }
   
-    /* Set a specific height */
+  /*  What We Do Section */
+
+  #middle{
+    margin-top: 5%;
+  }
+  .text3{
+    font-family: 'Slabo 27px', serif;
+    color: rgb(146, 185, 233);
+    font-size: 45px;
+    align-content: center;
+    /* text-align: center */
+  }
+  .text4{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(135, 135, 135);
+    align-content: center;
+    /* text-align: center */
+  }
+  .fa-hand-point-up{
+    font-size: 200%;
+    color: rgb(135, 135, 135);
+    margin:2%;
+  }
+  .fa-hand-point-up:hover{
+    color: rgb(146, 185, 233) !important;
+  }
+  .fa-smile-beam{
+    font-size: 200%;
+    color: rgb(135, 135, 135);
+    margin: 2%;
+  }
+  .fa-smile-beam:hover{
+    color: rgb(146, 185, 233) !important;
+  }
+  .fa-chart-bar{
+    font-size: 200%;
+    color: rgb(135, 135, 135);
+    margin: 2%;
+    /* padding:%; */
+  }
+  .fa-chart-bar:hover{
+    color: rgb(146, 185, 233) !important;
+  }
+  .fa-comment{
+    font-size: 200%;
+    color: rgb(135, 135, 135);
+    margin: 2%;
+  }
+  .fa-comment:hover{
+    color: rgb(146, 185, 233) !important;
+  }
+  .fa-users{
+    font-size: 200%;
+    color: rgb(135, 135, 135);
+    margin: 2%;
+  }
+  .fa-users:hover{
+    color: rgb(146, 185, 233) !important;
+  }
+  #icons{
+    align-content: center;
+    /* margin-top: 2%; */
+  }
+
+  /* Call for Superheroes Section */
+
+  .hero-image-middle {
+    background-image: linear-gradient(rgba(135, 135, 135, .8), rgba(135, 135, 135, .8)), url("./images/office.jpg");
     height: 20%;
     width: 100%;
-  
-    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin:0%;
+    align-content: center;
+    /* text-align: center */
+  }
+  .text5{
+    font-family: 'Slabo 27px', serif;
+    color:white;
+    font-size: 45px;
+    align-content: center;
+    /* text-align: center */
+  }
+  #superheroes{
+    padding: 10%;
+    align-content: center;
+    /* text-align: center */
+  }
+
+  /* Youtube Video Section */
+
+  .hero-image-middle-bottom{
+    background-image: linear-gradient( rgb(233, 233, 233), rgb(233, 233, 233));
+    height: 15%;
+    width: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -5%;
+    z-index:-1;
+    /* text-align: center; */
+    align-content: center;
+  }
+  #movie{
+    margin: 5%;
+    padding: 5%;
+    align-content: center;
+    width: 30em;
+    height: 15em;
+    /* width:560px;
+    height:315px; */
+    z-index:10;
+  }
+
+  /* Waze Map Section */
+
+  .hero-image-bottom {
+    background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
+    height: 20%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,17 +230,13 @@ font-family: 'Roboto', sans-serif; */
   }
   #address{
     background-color:rgba(64, 62, 62, 0.8);
-    /* margin-top: 10%;
-    margin-bottom: 10%; */
-    /* width: 50%; */
   }
   ul{
     padding:0;
     margin:0;
   }
   li {
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
   .text6{
     font-family: 'Slabo 27px', serif;
@@ -247,34 +259,9 @@ font-family: 'Roboto', sans-serif; */
     font-size: 10px;
     /* text-align: center */
   }
-  #movie{
-    margin: 5%;
-    padding: 5%;
-    align-content: center;
-  }
-  #screens{
-    margin-top: 10%;
-    /* margin-left: 30%; */
-    max-height: 80vh;
-    width: auto;
-  }
-  .hero-image-middle-bottom{
-    background-image: linear-gradient( rgb(233, 233, 233), rgb(233, 233, 233));
-    height: 15%;
-    width: 105%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: -5%;
-    z-index:-1;
-    /* text-align: center; */
-    align-content: center;
-
-  }
-  /* .col-md-6{
-    padding:0%;
-  } */
+ 
+  /*  Contact Section  */
+  
   #name{
     min-width: 39vw;
     /* margin-right:3%; */
@@ -318,6 +305,8 @@ font-family: 'Roboto', sans-serif; */
   box-shadow: 2px 2px grey;
   align-content: center;
   }
+
+  /*  Footer  */
   .footer {
     position: relative;
     left: 0;
@@ -331,7 +320,12 @@ font-family: 'Roboto', sans-serif; */
    
   }
 
+  /* Misc styling */
+  /* .col-md-6{
+    padding:0%;
+  } */
 
+/* Media Queries */
 
 @media screen and (max-width: 1125px) {
     .nav a:not(:first-child) {display: none;}
