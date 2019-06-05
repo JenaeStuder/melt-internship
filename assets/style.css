@@ -1,5 +1,5 @@
 /* Fonts
-font-family: 'Slabo 27px', serif;
+font-family: 'Lora', serif;
 font-family: 'Roboto', sans-serif; */
 /* .container{
   margin:0%;
@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif; */
    margin-top: 5%;
     overflow: hidden;
     color: white;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lora', serif;
     font-size: 40px;
     margin-left:40%;
   }
@@ -51,7 +51,7 @@ font-family: 'Roboto', sans-serif; */
     padding: 5%;
   }
   .text1{
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lora', serif;
     color: white;
     /* text-align: center */
   }
@@ -96,7 +96,7 @@ font-family: 'Roboto', sans-serif; */
     margin-top: 5%;
   }
   .text3{
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lora', serif;
     color: rgb(146, 185, 233);
     font-size: 45px;
     align-content: center;
@@ -169,7 +169,7 @@ font-family: 'Roboto', sans-serif; */
     /* text-align: center */
   }
   .text5{
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lora', serif;
     color:white;
     font-size: 45px;
     align-content: center;
@@ -242,7 +242,7 @@ font-family: 'Roboto', sans-serif; */
     list-style-type: none;  
 }
   .text6{
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lora', serif;
     color: white;
     font-size: 20px;
     margin-top:2%;
@@ -319,7 +319,7 @@ font-family: 'Roboto', sans-serif; */
     background-color: rgb(147, 184, 231);
     color: white;
     text-align: center;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lora', serif;
    
   }
 
