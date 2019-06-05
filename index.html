@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
 
     <!-- Bootstrap CDN -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -52,13 +53,13 @@
             <!-- </div> 
             <div class='col-md-4 col-xs-0'></div>
             <div class="col-md-6 col-xs-10">  -->
-            <div class="topnav" id="myTopnav">
+            <div class="nav" id="topnav">
                 <a href="#home">HOME</a>
-                <a href="#news">WORK</a>
-                <a href="#contact">CULTURE</a>
-                <a href="#about">LABS</a>
-                <a href="#about">THOUGHTS</a>
-                <a href="#about">CONTACT</a>
+                <a href="#work">WORK</a>
+                <a href="#about">CULTURE</a>
+                <a href="#labs">LABS</a>
+                <a href="#thoughts">THOUGHTS</a>
+                <a href="#contact">CONTACT</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -66,24 +67,27 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6" id='text'>
+            <div class="row" id='home'>
+                <div class='col-sm-1'></div>
+                <div class="col-sm-5" id='text'>
                     <h1 class="text1">Heroic websites and apps<b> for all viewports.</b></h1>
                     <p class="text2">We're meltmedia and we're on a mission. Quite simply, it's to make out clients'
                         lives easier. We create an enviornment where business, technology, and design experts join
                         forces to deliver innovative and sustainable digital solutions. And we have plenty of geeky fun
                         along the way.</p>
-                    <a class="button" href="#" role="button">See Our Work</a>
+                    <a class="button" href="https://meltmedia.com/work" role="button">See Our Work</a>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class='col-md-2'></div> -->
+                <div class="col-sm-6">
                     <img id='screens' src='./assets/images/screens1.png' alt='media screens'></img>
 
                 </div>
+                <!-- <div class='col-md-1'></div> -->
             </div>
         </div>
     </div>
 
-    <div class='container'>
+    <div class='container' id='labs'>
         <div class='row' id='middle'>
             <div class='col-sm-1'></div>
             <div class='col-sm-10'>
@@ -106,19 +110,29 @@
                 <div class='row' id='icons'>
                     <div class='col-sm-1'></div>
                     <div class='col-sm-2' id='icons'>
+                        <a href='https://jenaestuder.com'>
                         <img src='./assets/images/finger.png' alt="Touchscreen finger" height="42" width="42"></img>
+                    </a>
                     </div>
                     <div class='col-sm-2' id='icons'>
+                        <a href='https://github.com/naeNae15232'>
                         <img src='./assets/images/smile.png' alt="Smile" height="42" width="42"></img>
+                    </a>
                     </div>
                     <div class='col-sm-2' id='icons'>
+                        <a href='https://jenaestuder.com/#/Projects'>
                         <img src='./assets/images/graph.png' alt="graph" height="42" width="42"></img>
+                    </a>
                     </div>
                     <div class='col-sm-2' id='icons'>
+                        <a href='https://jenaestuder.com/#/Contact'>
                         <img src='./assets/images/message.png' alt="Message" height="42" width="42"></img>
+                    </a>
                     </div>
                     <div class='col-sm-2' id='icons'>
+                        <a href='https://www.linkedin.com/in/jenae-studer-a8a7029a/'>
                         <img src='./assets/images/group.png' alt="group" height="42" width="42"></img>
+                    </a>
                     </div>
                     <div class='col-sm-1'></div>
                 </div>
@@ -128,21 +142,21 @@
     </div>
     <br />
     <div class="hero-image-middle">
-        <div class='container'>
+        <div class='container' id="work">
             <div class='row' id='superheroes'>
                 <div class='col-sm-1'></div>
                 <div class='col-sm-10'>
                     <div class='row'>
                         <div class='col-sm-3'></div>
                         <div class='col-sm-7'>
-                            <h1 class='text5'>Call for <b>Superheroes</b></h1>
+                            <h1 class='text5' >Call for <b>Superheroes</b></h1>
                         </div>
                         <div class='col-sm-2'></div>
                     </div>
                     <div class='row'>
                         <div class='col-sm-3'></div>
                         <div class='col-sm-7'>
-                            <a class="button" href="#" role="button">See Our Openings</a>
+                            <a class="button" href="https://meltmedia.com/careers" role="button">See Our Openings</a>
                         </div>
                         <div class='col-sm-2'></div>
 
@@ -154,7 +168,7 @@
     </div>
     <br />
     <div class='hero-image-middle-bottom'>
-        <div class='row'>
+        <div class='row' id='about'>
             <div class='col-sm-2'></div>
             <div class='col-sm-8' id='movie'>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VDu9on024N4" frameborder="0"
@@ -216,10 +230,10 @@
                 <div class='row'>
                     <form>
                         <div class='row'>
-                            <div class='col-md-6'>
+                            <div class='col-sm-6'>
                                 <input class='text4' type="text" id="name" name="name" placeholder="What is your name?">
                             </div>
-                            <div class='col-md-6'>
+                            <div class='col-sm-6'>
                                 <input class='text4' type="text" id="email" name="email" placeholder="What is your email address?">
                             </div>
                         </div>

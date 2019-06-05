@@ -1,8 +1,8 @@
 /* font-family: 'Slabo 27px', serif;
 font-family: 'Roboto', sans-serif; */
-.container{
+/* .container{
   margin:0%;
-}
+} */
 .hero-image-top {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(93, 141, 203, 0.8), rgba(93, 141, 203, 0.8)), url("./images/superman.jpg");
@@ -18,7 +18,10 @@ font-family: 'Roboto', sans-serif; */
   position: relative;
   margin: 0%;
   align-content: center;
-  text-align: center
+  /* text-align: center */
+}
+a:hover{
+  background-color:rgb(146, 185, 233);
 }
 #text{
   padding: 5%;
@@ -26,13 +29,13 @@ font-family: 'Roboto', sans-serif; */
 .text1{
   font-family: 'Slabo 27px', serif;
   color: white;
-  text-align: center
+  /* text-align: center */
 }
 .text2{
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 20px;
-  text-align: center
+  /* text-align: center */
 }
 .logo{
   margin-top: 5%;
@@ -51,7 +54,7 @@ font-family: 'Roboto', sans-serif; */
   padding-bottom: 2%;
   align-content: center;
   margin-bottom: 20%;
-  text-align: center
+  /* text-align: center */
 }
 #middle{
   margin-top: 5%;
@@ -61,21 +64,21 @@ font-family: 'Roboto', sans-serif; */
   color: rgb(146, 185, 233);
   font-size: 45px;
   align-content: center;
-  text-align: center
+  /* text-align: center */
   /* margin: 0% 20%; */
 }
 .text4{
   font-family: 'Roboto', sans-serif;
   color: rgb(135, 135, 135);
   align-content: center;
-  text-align: center
+  /* text-align: center */
 }
 .text5{
   font-family: 'Slabo 27px', serif;
   color:white;
   font-size: 45px;
   align-content: center;
-  text-align: center
+  /* text-align: center */
 }
 #icons{
   align-content: center;
@@ -96,15 +99,15 @@ font-family: 'Roboto', sans-serif; */
   position: relative;
   margin:0%;
   align-content: center;
-  text-align: center
+  /* text-align: center */
 }
 #superheroes{
   padding: 10%;
   align-content: center;
-  text-align: center
+  /* text-align: center */
 }
 
-.topnav {
+.nav {
    float: left;
    margin-top: 5%;
    /* margin-left: 45%; */
@@ -116,11 +119,11 @@ font-family: 'Roboto', sans-serif; */
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .nav a {
     float: left;
-    display: block;
+    /* display: block; */
     color: white;
-    text-align: center;
+    /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -129,7 +132,7 @@ font-family: 'Roboto', sans-serif; */
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .nav a:hover {
     border-bottom: 2px solid black;
     
   }
@@ -141,7 +144,7 @@ font-family: 'Roboto', sans-serif; */
   }
   
   /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+  .nav .icon {
     display: none;
   }
   .hero-image-bottom {
@@ -159,7 +162,7 @@ font-family: 'Roboto', sans-serif; */
     position: relative;
     margin: 0%;
     align-content: center;
-    text-align: center
+    /* text-align: center */
   }
   #contact{
    position: absolute;
@@ -187,7 +190,7 @@ font-family: 'Roboto', sans-serif; */
     color: white;
     font-size: 20px;
     margin-top:2%;
-    text-align: center
+    /* text-align: center */
   }
   .text7{
     font-family: 'Roboto', sans-serif;
@@ -195,13 +198,13 @@ font-family: 'Roboto', sans-serif; */
     font-size: 10px;
     font-weight: bold;
     margin-top:2%;
-    text-align: center
+    /* text-align: center */
   }
   .text8{
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 10px;
-    text-align: center
+    /* text-align: center */
   }
   #movie{
     margin: 5%;
@@ -210,9 +213,9 @@ font-family: 'Roboto', sans-serif; */
   }
   #screens{
     margin-top: 10%;
-    margin-left: 30%;
-    max-height: 80%;
-    max-width: 100%;
+    /* margin-left: 30%; */
+    max-height: 80vh;
+    width: auto;
   }
   .hero-image-middle-bottom{
     background-image: linear-gradient( rgb(233, 233, 233), rgb(233, 233, 233));
@@ -224,13 +227,13 @@ font-family: 'Roboto', sans-serif; */
     position: relative;
     margin: -5%;
     z-index:-1;
-    text-align: center;
+    /* text-align: center; */
     align-content: center;
 
   }
-  .col-md-6{
+  /* .col-md-6{
     padding:0%;
-  }
+  } */
   #name{
     min-width: 39vw;
     /* margin-right:3%; */
@@ -269,7 +272,7 @@ font-family: 'Roboto', sans-serif; */
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 2%;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 10%;
   box-shadow: 2px 2px grey;
   align-content: center;
@@ -283,28 +286,36 @@ font-family: 'Roboto', sans-serif; */
     background-color: rgb(147, 184, 231);
     color: white;
     text-align: center;
+    font-family: 'Slabo 27px', serif;
    
   }
 
 
 
 @media screen and (max-width: 1125px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
       float: right;
       display: block;
     }
   }
   @media screen and (max-width: 1125px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .topnav.responsive a {
+    .nav.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
+  }
+  @media screen and (max-width: 1125px) {
+    #screens.responsive{
+      position: relative;
+      margin-left: 0%;
+      margin-right: 20%;
+    } 
   }
