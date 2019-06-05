@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif; */
     color: white;
     font-family: 'Lora', serif;
     font-size: 40px;
-    margin-left:40%;
+    margin-left:20%;
   }
   .nav a {
     float: left;
@@ -53,12 +53,13 @@ font-family: 'Roboto', sans-serif; */
   .text1{
     font-family: 'Lora', serif;
     color: white;
+    font-size: 45px;
     /* text-align: center */
   }
   .text2{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     /* text-align: center */
   }
   .logo{
@@ -91,7 +92,10 @@ font-family: 'Roboto', sans-serif; */
   }
   
   /*  What We Do Section */
-
+  #labs{
+    height: 25%;
+    width: 100%;
+  }
   #middle{
     margin-top: 5%;
   }
@@ -100,13 +104,14 @@ font-family: 'Roboto', sans-serif; */
     color: rgb(146, 185, 233);
     font-size: 45px;
     align-content: center;
-    /* text-align: center */
+    text-align: center
   }
   .text4{
     font-family: 'Roboto', sans-serif;
     color: rgb(135, 135, 135);
     align-content: center;
-    /* text-align: center */
+    text-align: center;
+    font-size:17px;
   }
   .fa-hand-point-up{
     font-size: 200%;
@@ -151,14 +156,14 @@ font-family: 'Roboto', sans-serif; */
   }
   #icons{
     align-content: center;
-    /* margin-top: 2%; */
+    margin-left: 12%;
   }
 
   /* Call for Superheroes Section */
 
   .hero-image-middle {
     background-image: linear-gradient(rgba(135, 135, 135, .8), rgba(135, 135, 135, .8)), url("./images/office.jpg");
-    height: 20%;
+    height: 15%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,7 +178,7 @@ font-family: 'Roboto', sans-serif; */
     color:white;
     font-size: 45px;
     align-content: center;
-    /* text-align: center */
+    text-align: center
   }
   #superheroes{
     padding: 10%;
