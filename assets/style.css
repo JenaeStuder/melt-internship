@@ -186,13 +186,14 @@ font-family: 'Roboto', sans-serif; */
   .hero-image-middle-bottom{
     background-image: linear-gradient( rgb(233, 233, 233), rgb(233, 233, 233));
     height: 15%;
-    width: 105%;
+    width: 100%;
     padding-bottom: 56.25%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin: -6%;
+    margin-top: -5%;
+    margin-bottom:-5%;
     z-index:-1;
     /* text-align: center; */
     align-content: center;
