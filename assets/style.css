@@ -159,7 +159,7 @@ font-family: 'Roboto', sans-serif; */
   }
   #icons{
     align-content: center;
-    margin-left: 30%;
+    /* margin-left: 30%; */
   }
 
   /* Call for Superheroes Section */
@@ -224,10 +224,7 @@ font-family: 'Roboto', sans-serif; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: -5%;
-    margin-bottom:-5%;
-    margin-right:0;
-    margin-left:0%;
+    margin: -5% 0%;
     align-content: center;
   }
   .movie{
