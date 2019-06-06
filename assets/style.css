@@ -209,13 +209,11 @@ font-family: 'Roboto', sans-serif; */
     padding-right: 10%;
     padding-bottom: 2%;
     align-content: center;
-    /* margin-bottom: 20%;
-    margin-right: 50%; */
-
   }
   .button2:hover{
     background-color:rgb(146, 185, 233);
   }
+
   /* Youtube Video Section */
 
   .hero-image-middle-bottom{
@@ -231,8 +229,6 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom:-5%;
     margin-right:0;
     margin-left:0%;
-    /* z-index:-1; */
-    /* text-align: center; */
     align-content: center;
   }
   .movie{
@@ -265,12 +261,12 @@ font-family: 'Roboto', sans-serif; */
   #contact{
    position: absolute;
    top: 0;
-   left: 0;
-   width: 70%;
+   left:0;
+   width: 20%;
+   /* min-width: 30%; */
    margin-top:15%;
-  }
-  #address{
-    background-color:rgba(64, 62, 62, 0.8);
+   margin-left: 5%;
+   background-color:rgba(64, 62, 62, 0.8);
   }
   ul{
     padding:0;
@@ -289,16 +285,45 @@ font-family: 'Roboto', sans-serif; */
   .text7{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 10px;
-    font-weight: bold;
-    margin-top:2%;
+    font-size: 18px;
+    /* margin-top:2%; */
     /* text-align: center */
   }
   .text8{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     /* text-align: center */
+  }
+  #friends{
+    align-content: center;
+    margin-bottom:5%;
+  }
+  .fa-facebook-f{
+    font-size: 100%;
+    color: white;
+    margin: 20%;
+    padding: 10%;
+   
+  }
+  .fa-twitter{
+    font-size: 100%;
+    color: white;
+    margin: 20%;
+    padding: 10%;
+   
+  }
+  .fa-linkedin-in{
+    font-size: 100%;
+    color: white;
+    margin: 20%;
+    padding: 10%;
+  }
+  .fa-instagram{
+    font-size: 100%;
+    color: white;
+    margin: 20%;
+    padding: 10%;
   }
  
   /*  Contact Section  */
