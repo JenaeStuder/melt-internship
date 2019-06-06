@@ -169,8 +169,11 @@ font-family: 'Roboto', sans-serif; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin:0%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-bottom:-4.5%;
     align-content: center;
+   
     /* text-align: center */
   }
   .text5{
@@ -223,7 +226,7 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom:-5%;
     margin-right:0;
     margin-left:0%;
-    z-index:-1;
+    /* z-index:-1; */
     /* text-align: center; */
     align-content: center;
   }
@@ -233,7 +236,8 @@ font-family: 'Roboto', sans-serif; */
     left:0;
     width: 75%;
     height: 75%;
-    margin-top:7%;
+    margin-top: 5%;
+    margin-bottom: 40%;
     margin-left:15.5%;
   }
 
@@ -247,8 +251,10 @@ font-family: 'Roboto', sans-serif; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
     align-content: center;
+    margin-top:-3%;
     /* text-align: center */
   }
   #contact{
