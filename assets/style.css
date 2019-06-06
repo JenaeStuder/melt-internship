@@ -333,16 +333,17 @@ font-family: 'Roboto', sans-serif; */
     padding:0%;
   }
   #name{
-    min-width: 39vw;
-    max-width:auto;
+    width: 100%;
+    /* max-width:39px; */
     /* margin-right:3%; */
     margin-top: 3%;
     border: 1px solid rgb(135, 135, 135);
     box-shadow: 2px 2px grey;
   }
   #email{
-    min-width: 39vw;
-    max-width:auto;
+    /* max-width: 408px; */
+    width: 100%;
+    /* max-width:3; */
     margin-top: 3%;
     margin-left: 3%;
     border: 1px solid rgb(135, 135, 135);
@@ -373,6 +374,7 @@ font-family: 'Roboto', sans-serif; */
   padding-right: 10%;
   padding-bottom: 2%;
   /* text-align: center; */
+  margin-top: 15%;
   margin-bottom: 10%;
   box-shadow: 2px 2px grey;
   align-content: center;
@@ -409,8 +411,11 @@ font-family: 'Roboto', sans-serif; */
     position: relative;
     margin-left: 0%;
     margin-right: 20%;
-    width:;
+    width:100%;
   } 
+  .button3{
+    margin-left:0%;
+  }
 
 }
 @media only screen and (max-width:360px){
@@ -450,6 +455,27 @@ font-family: 'Roboto', sans-serif; */
     /* margin:1%; */
     font-size: 12px;
   }
+}
+@media only screen and (max-width:575px){
+  #name{
+    margin-left: 10%;
+    width: 80vw;
+  }
+  #email{
+    margin-left: 0%;
+    margin-left:10%;
+    width: 80vw;
+  }
+  #power{
+    margin-left: 10%;
+  }
+#subject{
+  margin-left: 10%;
+}
+.button3{
+  margin-top:9%;
+  margin-left: 25%;
+}
 }
 @media only screen and (max-width: 926px) {
   .nav a:not(:first-child) {display: none;}
