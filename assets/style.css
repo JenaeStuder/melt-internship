@@ -156,7 +156,7 @@ font-family: 'Roboto', sans-serif; */
   }
   #icons{
     align-content: center;
-    margin-left: 15%;
+    margin-left: 16%;
   }
 
   /* Call for Superheroes Section */
@@ -185,7 +185,29 @@ font-family: 'Roboto', sans-serif; */
     align-content: center;
     /* text-align: center */
   }
+  #open{
+    align-content: center;
+    margin-left: 20%;
+  }
+  .button2{
+    width: 100%;
+    height: 10%;
+    border: solid 1.2px white;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    align-content: center;
+    /* margin-bottom: 20%;
+    margin-right: 50%; */
 
+  }
+  .button2:hover{
+    background-color:rgb(146, 185, 233);
+  }
   /* Youtube Video Section */
 
   .hero-image-middle-bottom{
@@ -297,7 +319,7 @@ font-family: 'Roboto', sans-serif; */
     border: 1px solid rgb(135, 135, 135);
     box-shadow: 2px 2px grey;
   }
-  .button2{
+  .button3{
   font-family: 'Roboto', sans-serif;
   color:rgb(135, 135, 135);
   font-size: 15px;
