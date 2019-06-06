@@ -473,12 +473,12 @@ font-family: 'Roboto', sans-serif; */
   margin-left: 25%;
 }
 @media only screen and (max-width:668px){
-  #icons{
+  /* #icons{
     /* margin-left: 0%;
     margin-right: 15%; */
-  }
-}
-}
+  } 
+
+
 @media only screen and (max-width: 926px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
