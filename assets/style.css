@@ -1,11 +1,10 @@
 /* Fonts
 font-family: 'Lora', serif;
 font-family: 'Roboto', sans-serif; */
-/* .container{
-  margin:0%;
-} */
+
 
 /* Navbar */
+
 #top{
   margin-bottom:2%;
 }
@@ -263,9 +262,9 @@ font-family: 'Roboto', sans-serif; */
    top: 0;
    left:0;
    width: 16%;
-   height:50%;
+   height:55%;
    /* min-width: 30%; */
-   margin-top:15%;
+   margin-top:13%;
    margin-left: 5%;
    background-color:rgba(64, 62, 62, 0.8);
   }
@@ -329,9 +328,13 @@ font-family: 'Roboto', sans-serif; */
   }
  
   /*  Contact Section  */
-  
+
+  #nme{
+    padding:0%;
+  }
   #name{
     min-width: 39vw;
+    max-width:auto;
     /* margin-right:3%; */
     margin-top: 3%;
     border: 1px solid rgb(135, 135, 135);
@@ -339,6 +342,7 @@ font-family: 'Roboto', sans-serif; */
   }
   #email{
     min-width: 39vw;
+    max-width:auto;
     margin-top: 3%;
     margin-left: 3%;
     border: 1px solid rgb(135, 135, 135);
@@ -395,82 +399,102 @@ font-family: 'Roboto', sans-serif; */
 
 /* Media Queries */
 
+@media only screen and (max-width:320px){
+  #contact{
+    margin-top:32%;
+    width: 35%;
+    height: 50%;
+  }
+  #screens{
+    position: relative;
+    margin-left: 0%;
+    margin-right: 20%;
+    width:;
+  } 
+
+}
+@media only screen and (max-width:360px){
+  #contact{
+    margin-top:32%;
+    width: 32%;
+    height: 50%;
+  }
+  .text6{
+   
+    font-size: 17px;
+    margin-top: 1%
+  }
+  .text7{
+    margin-left:3%;
+    font-size: 15px;
+  }
+  .text8{
+    margin-left:3%;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:415px){
+  #contact{
+    margin-top:32%;
+    width: 32%;
+    height: 45%;
+  }
+  .text6{
+    margin: 1%;
+  }
+  .text7{
+    margin:1%;
+    font-size: 15px;
+  }
+  .text8{
+    /* margin:1%; */
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 926px) {
-    .nav a:not(:first-child) {display: none;}
-    .nav a.icon {
-      float: right;
-      display: block;
-     
-    }
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+   
   }
-  @media only screen and (max-width: 926px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-     
-    }
-    .nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-     
-    }
+}
+@media only screen and (max-width: 926px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+   
   }
-  @media only screen and (max-width: 926px) {
-    #screens.responsive{
-      position: relative;
-      margin-left: 0%;
-      margin-right: 20%;
-    } 
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+   
   }
-  @media only screen and (max-width:768px){
-    
+}
+@media only screen and (max-width: 926px) {
+  #screens{
+    position: relative;
+    margin-left: 0%;
+    margin-right: 20%;
+  } 
+}
+
+
+/* @media only screen and(max-width:1050px){
+  #contact{
+    height: %;
   }
-  @media only screen and (max-width:415px){
-    #contact{
-      margin-top:32%;
-      width: 32%;
-      height: 45%;
+} */
+
+
+  /* @media only screen and (max-width:768px){
+    #icons{
+      margin: 0%;
     }
-    .text6{
-      margin: 1%;
-    }
-    .text7{
-      margin:1%;
-      font-size: 15px;
-    }
-    .text8{
-      /* margin:1%; */
-      font-size: 12px;
-    }
-  }
+  } */
+ 
   
-  @media only screen and (max-width:360px){
-    #contact{
-      margin-top:32%;
-      width: 32%;
-      height: 50%;
-    }
-    .text6{
-     
-      font-size: 17px;
-      margin-top: 1%
-    }
-    .text7{
-      margin-left:3%;
-      font-size: 15px;
-    }
-    .text8{
-      margin-left:3%;
-      font-size: 12px;
-    }
-  }
-  @media only screen and (max-width:320px){
-    #contact{
-      margin-top:32%;
-      width: 35%;
-      height: 50%;
-    }
-  }
+  
