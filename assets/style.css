@@ -9,25 +9,28 @@ font-family: 'Roboto', sans-serif; */
   margin-bottom:2%;
 }
 .nav {
-   float: left;
+   /* float: left; */
    margin-top: 5%;
     overflow: hidden;
-    color: white;
+    /* color: white;
     font-family: 'Lora', serif;
-    font-size: 40px;
-    margin-left:20%;
+    font-size: 40px;*/
+    margin-left:30%; 
   }
   .nav a {
     float: left;
+    display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    /* margin-left:20%; */
   }
   .nav a:hover {
     border-bottom: 2px solid black;
   }
-  .active {  
+  .nav a.active {  
     color: white;
   }
   .nav .icon {
@@ -339,10 +342,11 @@ font-family: 'Roboto', sans-serif; */
   }
   #email{
     /* max-width: 408px; */
-    width: 100%;
+    width: 97%;
     /* max-width:3; */
     margin-top: 3%;
     margin-left: 3%;
+    /* margin-right: 3%; */
     border: 1px solid rgb(135, 135, 135);
     box-shadow: 2px 2px grey;
   }
@@ -400,7 +404,11 @@ font-family: 'Roboto', sans-serif; */
   #contact{
     margin-top:32%;
     width: 35%;
-    height: 50%;
+    height: 100%;
+    /* margin-bottom:2%; */
+  }
+  #friends{
+    margin-bottom:2%;
   }
   #screens{
     position: relative;
@@ -412,7 +420,28 @@ font-family: 'Roboto', sans-serif; */
     margin-left:0%;
     margin-top: 20%;
   }
-
+  .fa-facebook-f{
+    font-size: 80%;
+    margin: 20%;
+    padding: 10%;
+   
+  }
+  .fa-twitter{
+    font-size: 80%;
+    margin: 20%;
+    padding: 10%;
+   
+  }
+  .fa-linkedin-in{
+    font-size: 80%;
+    margin: 20%;
+    padding: 10%;
+  }
+  .fa-instagram{
+    font-size: 80%;
+    margin: 20%;
+    padding: 10%;
+  }
 }
 @media only screen and (max-width:360px){
   #contact{
@@ -472,14 +501,21 @@ font-family: 'Roboto', sans-serif; */
   margin-top:9%;
   margin-left: 25%;
 }
-@media only screen and (max-width:668px){
+/* @media only screen and (max-width:668px){
   /* #icons{
     /* margin-left: 0%;
-    margin-right: 15%; */
-  } 
+    margin-right: 15%;} */
+
+    @media only screen and (max-width: 600px) {
+      #screens{
+        position: relative;
+        margin-left: 0%;
+        margin-right: 20%;
+      } 
+    }
 
 
-@media only screen and (max-width: 926px) {
+@media only screen and (max-width: 700px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;
@@ -487,7 +523,7 @@ font-family: 'Roboto', sans-serif; */
    
   }
 }
-@media only screen and (max-width: 926px) {
+@media only screen and (max-width: 700px) {
   .nav.responsive {position: relative;}
   .nav.responsive a.icon {
     position: absolute;
@@ -502,13 +538,15 @@ font-family: 'Roboto', sans-serif; */
    
   }
 }
-@media only screen and (max-width: 926px) {
-  #screens{
-    position: relative;
-    margin-left: 0%;
-    margin-right: 20%;
-  } 
-}
+/* @media only screen and (max-width:770px){
+  .nav{
+    margin: 0%;
+  }
+  #contact{
+    width: 20%;
+    height: 100vh;
+  }
+} */
 
 
 /* @media only screen and(max-width:1050px){
