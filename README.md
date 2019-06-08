@@ -6,24 +6,24 @@ https://naenae15232.github.io/melt-internship/
 
 ### A few screen shots of the webpage in full screen
 ![Opening Page](assets/images/full-screen-1.png)
-
+# 
 ![Opening Page](assets/images/full-screen-2.png)
-
+# 
 ![Opening Page](assets/images/youtube-full.png)
-
+# 
 ![Opening Page](assets/images/map-full.png)
-
+# 
 ![Opening Page](assets/images/contact-full.png)
 
 ### A few screen shots of the webpage in mobile to show the responsiveness
 ![Opening Page](assets/images/mobile-1.png)
-
+# 
 ![Opening Page](assets/images/mobile-nav.png)
-
+# 
 ![Opening Page](assets/images/mobile-nonav.png)
-
+# 
 ![Opening Page](assets/images/mobile-2.png)
-
+# 
 ![Opening Page](assets/images/map-mobile.png)
-
+# 
 ![Opening Page](assets/images/contact-mobile.png)
