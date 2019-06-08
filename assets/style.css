@@ -109,8 +109,8 @@ font-family: 'Roboto', sans-serif; */
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     overflow: hidden;
-    -webkit-transition-duration: 0.9s;
-    transition-duration: 0.9s;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
   }
@@ -190,7 +190,7 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Lora', serif;
     color: rgb(146, 185, 233);
     font-size: 45px;
-    align-content: center;
+    /* align-content: center; */
     text-align: center
   }
   .text4{
@@ -214,8 +214,8 @@ font-family: 'Roboto', sans-serif; */
     margin: 2%;
   }
   .fa-smile-beam:hover{
-    color: rgb(146, 185, 233) !important;
-  }
+    color: rgb(146, 185, 233) !important; }
+  
   .fa-chart-bar{
     font-size: 200%;
     color: rgb(135, 135, 135);
@@ -239,12 +239,15 @@ font-family: 'Roboto', sans-serif; */
     margin: 2%;
   }
   .fa-users:hover{
-    color: rgb(146, 185, 233) !important;
+     color: rgb(146, 185, 233) !important; 
   }
-  /* #icons{
+  
+  
+  #icons{
+    text-align: center;
     /* align-content: center; */
     /* margin-left: 10%; */
-  
+  }
 
   /* Call for Superheroes Section */
 
@@ -290,6 +293,8 @@ font-family: 'Roboto', sans-serif; */
     padding: 2% 10%;
     align-content: center;
     font-family: 'Roboto', sans-serif;
+    /* margin-left: 32%; */
+
     /* width: 80%; */
   /* text-align: center; */
   }
@@ -300,8 +305,8 @@ font-family: 'Roboto', sans-serif; */
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     overflow: hidden;
-    -webkit-transition-duration: 0.9s;
-    transition-duration: 0.9s;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
   }
@@ -482,7 +487,7 @@ font-family: 'Roboto', sans-serif; */
   height: 10%;
   width: 80%;
   padding: 2% 10%;
-  margin-left: 25%;
+  margin-left: 32%;
   margin-top: 15%;
   margin-bottom: 10%;
   box-shadow: 2px 2px grey;
@@ -495,8 +500,8 @@ font-family: 'Roboto', sans-serif; */
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     overflow: hidden;
-    -webkit-transition-duration: 0.9s;
-    transition-duration: 0.9s;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
   }
@@ -593,7 +598,7 @@ font-family: 'Roboto', sans-serif; */
   #contact{
     margin-top:32%;
     width: 32%;
-    height: 50%;
+    height: 45%;
   }
   .text6{
    
@@ -657,9 +662,16 @@ font-family: 'Roboto', sans-serif; */
         margin-right: 20%;
       } 
     }
+  @media only screen and (max-width:769px){
+    .nav{
+      margin-left:45%;
+    }
+    #contact{
+      height: 48%;
+    }
+  }
 
-
-@media screen and (max-width: 851px) {
+@media screen and (max-width: 922px) {
   /* .nav{
     /* margin-left:10%; */
   
@@ -672,7 +684,7 @@ font-family: 'Roboto', sans-serif; */
    
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 922px) {
   .nav.responsive {
     position: relative;
     display: block;
@@ -695,29 +707,10 @@ font-family: 'Roboto', sans-serif; */
    
   }
 }
-/* @media only screen and (max-width:770px){
-  .nav{
-    margin: 0%;
-  }
-  #contact{
-    width: 20%;
-    height: 100vh;
-  }
-} */
 
 
-/* @media only screen and(max-width:1050px){
-  #contact{
-    height: %;
-  }
-} */
 
 
-  /* @media only screen and (max-width:768px){
-    .nav{
-      margin-top:0%;
-    }
-  } */
  
   /* @media only screen and (max-width:1440px){
     #email{
