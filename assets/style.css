@@ -636,6 +636,7 @@ font-family: 'Roboto', sans-serif; */
   }
 }
 @media only screen and (max-width:575px){
+ 
   #name{
     margin-left: 10%;
     width: 80vw;
@@ -671,9 +672,9 @@ font-family: 'Roboto', sans-serif; */
     }
   }
 
-@media screen and (max-width: 922px) {
-  /* .nav{
-    /* margin-left:10%; */
+
+@media only screen and (max-width: 922px) {
+  
   
   .nav a {display: none;}
   .nav a.icon {
