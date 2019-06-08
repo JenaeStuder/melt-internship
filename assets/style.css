@@ -617,11 +617,11 @@ font-family: 'Roboto', sans-serif; */
     
   }
   .nav.responsive a.icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     margin-left:10%;
-    display: none;
+    /* display: none; */
    
    
   }
