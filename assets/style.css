@@ -401,6 +401,21 @@ font-family: 'Roboto', sans-serif; */
 /* Media Queries */
 
 @media only screen and (max-width:320px){
+  .fa-hand-point-up{
+    font-size: 160%;
+  }
+  .fa-smile-beam{
+    font-size: 160%;
+  }
+  .fa-chart-bar{
+    font-size: 160%;
+  }
+  .fa-comment{
+    font-size: 160%;
+  }
+  .fa-users{
+    font-size: 160%;
+  }
   #contact{
     margin-top:32%;
     width: 35%;
@@ -515,7 +530,7 @@ font-family: 'Roboto', sans-serif; */
     }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;
@@ -523,7 +538,7 @@ font-family: 'Roboto', sans-serif; */
    
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
   .nav.responsive {position: relative;}
   .nav.responsive a.icon {
     position: absolute;
@@ -557,10 +572,14 @@ font-family: 'Roboto', sans-serif; */
 
 
   /* @media only screen and (max-width:768px){
-    #icons{
-      margin: 0%;
+    .nav{
+      margin-top:0%;
     }
   } */
  
-  
+  /* @media only screen and (max-width:1440px){
+    #email{
+      width: 100%;
+    }
+  } */
   
