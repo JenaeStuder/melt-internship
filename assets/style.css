@@ -162,7 +162,7 @@ font-family: 'Roboto', sans-serif; */
   }
   #icons{
     align-content: center;
-    /* margin-left: 30%; */
+    /* margin-left: 10%; */
   }
 
   /* Call for Superheroes Section */
@@ -401,6 +401,7 @@ font-family: 'Roboto', sans-serif; */
 /* Media Queries */
 
 @media only screen and (max-width:320px){
+  
   .fa-hand-point-up{
     font-size: 160%;
   }
@@ -459,6 +460,9 @@ font-family: 'Roboto', sans-serif; */
   }
 }
 @media only screen and (max-width:360px){
+  #icons{
+    margin-left:10%;
+  }
   #contact{
     margin-top:32%;
     width: 32%;
