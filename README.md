@@ -4,6 +4,9 @@ https://naenae15232.github.io/melt-internship/
 
 ## This is a fully responsive, but static webpage designed off of a PDF visual for an internship application. It utilizes HTML, CSS, and JavaScript. Some images were made using photoshop and others were obtained from pexels.com along with the icons being sourced from Font Awesome.
 
+### The PDF image I was sent to replicate
+![melt test](assets/images/melt_CSS_Test.jpg)
+
 ### A few screen shots of the webpage in full screen
 ![Opening Page](assets/images/full-screen-1.png)
 # 

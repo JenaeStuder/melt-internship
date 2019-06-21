@@ -189,6 +189,7 @@ font-family: 'Roboto', sans-serif; */
   }
   .fa-hand-point-up:hover{
     color: rgb(146, 185, 233) !important;
+    
   }
   .fa-smile-beam{
     font-size: 200%;
@@ -213,6 +214,7 @@ font-family: 'Roboto', sans-serif; */
   }
   .fa-comment:hover{
     color: rgb(146, 185, 233) !important;
+
   }
   .fa-users{
     font-size: 200%;
