@@ -182,7 +182,23 @@ font-family: 'Roboto', sans-serif; */
     text-align: center;
     font-size:17px;
   }
-  .fa-hand-point-up{
+  .flex-container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center; */
+  }
+  #icons{
+    font-size: 200%;
+    color: rgb(135, 135, 135);
+    /* margin:2%; */
+    padding: 0 2%;
+    
+  }
+  #icons:hover{
+    color: rgb(146, 185, 233) !important;
+  }
+  /*.fa-hand-point-up{
     font-size: 200%;
     color: rgb(135, 135, 135);
     margin:2%;
@@ -223,10 +239,10 @@ font-family: 'Roboto', sans-serif; */
   }
   .fa-users:hover{
      color: rgb(146, 185, 233) !important; 
-  }
-  #icons{
+  } */
+  /* #icons{
     text-align: center;
-  }
+  } */
 
   /* Call for Superheroes Section */
 
@@ -484,7 +500,7 @@ font-family: 'Roboto', sans-serif; */
 
 @media only screen and (max-width:320px){
   
-  .fa-hand-point-up{
+  /* .fa-hand-point-up{
     font-size: 160%;
   }
   .fa-smile-beam{
@@ -498,7 +514,7 @@ font-family: 'Roboto', sans-serif; */
   }
   .fa-users{
     font-size: 160%;
-  }
+  } */
   #contact{
     margin-top:32%;
     width: 35%;
@@ -539,9 +555,9 @@ font-family: 'Roboto', sans-serif; */
   }
 }
 @media only screen and (max-width:360px){
-  #icons{
+  /* #icons{
     margin-left:30%;
-  }
+  } */
   #contact{
     margin-top:32%;
     width: 32%;
@@ -561,9 +577,9 @@ font-family: 'Roboto', sans-serif; */
   }
 }
 @media only screen and (max-width:415px){
-  #icons{
+  /* #icons{
     margin-left:10%;
-  }
+  } */
   #contact{
     margin-top:32%;
     width: 32%;
@@ -640,4 +656,5 @@ font-family: 'Roboto', sans-serif; */
     display:block;
     text-align: center;
   }
+}
 }
